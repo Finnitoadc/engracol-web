@@ -227,3 +227,20 @@
     transform: rotate(0deg);
   }
 }
+
+.heroContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.heroRow {
+  /* Estilos adicionales para la fila del héroe */
+}
+
+.heroCol {
+  text-align: center;
+  /* Estilos adicionales para la columna del héroe */
+}
