@@ -48,26 +48,23 @@ const Footer = () => {
               </p>
             </Col>
             <Col md={4} lg={3} xl={3} className="mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+              <h6 className="text-uppercase fw-bold mb-4">Contacto</h6>
               <p>
                 New York, NY 10012, US
               </p>
               <p>
-                info@example.com
+                info@engracol.com
               </p>
               <p>
-                + 01 234 567 88
-              </p>
-              <p>
-                + 01 234 567 89
+              <i className="bi bi-whatsapp me-1"></i>+57 324 6826740
               </p>
             </Col>
           </Row>
         </Container>
       </section>
       <div className="text-center p-4" style={{ backgroundColor: 'transparent' }}>
-        © {new Date().getFullYear()} Company name:
-        <a className="text-reset fw-bold text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © {new Date().getFullYear()}
+        <p className="text-reset fw-bold text-white">Engracol S.A.S</p>
       </div>
     </footer>
   );

@@ -31,7 +31,7 @@ const ExampleComponent = () => {
                 width={300}
                 height={300}
                 className="img-fluid"
-                priority // Prefetching de imagen
+                priority
               />
             </motion.div>
           </Col>
@@ -43,7 +43,7 @@ const ExampleComponent = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="display-5 fw-bold lh-1 mb-3 text-white"
             >
-              Responsive left-aligned hero with image
+              Reparación y mantenimiento de maquinaria industrial
             </motion.h1>
             <motion.p
               initial="hidden"
@@ -52,10 +52,11 @@ const ExampleComponent = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="lead text-white"
             >
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              En <strong className='fw-bold'>ENGRACOL S.A.S</strong> nos dedicamos a la fabricación de piñoneria, 
+              transmisiones mecánicas y mecanizado industrial, 
+              ofreciendo soluciones de calidad para las necesidades específicas de cada cliente. 
+              Contamos con un equipo altamente capacitado en el diseño y producción de piezas y sistemas mecánicos,
+              utilizando tecnología avanzada y materiales de primera calidad. nuestra experiencia en el sector nos permite ofrecer un servicio personalizado y eficiente garantizando la satisfacción de nuestros clientes.
             </motion.p>
           </Col>
         </Row>
