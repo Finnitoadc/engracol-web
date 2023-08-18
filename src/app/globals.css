@@ -2,3 +2,6 @@ body {
   animation: moveBackground 20s infinite; /* Aumenta la duración de la animación #408EAB) */
   background: linear-gradient(45deg, #0c4b66, #408EAB);
 }
+.icon-lg {
+  font-size: 30px; /* Tamaño deseado para los iconos (ajusta el valor según tus necesidades) */
+}

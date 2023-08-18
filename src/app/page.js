@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 
-const ExampleComponent = () => {
+const Homepage = () => {
   const fadeInVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
@@ -15,14 +15,14 @@ const ExampleComponent = () => {
   return (
     <>
       <Navbar />
-      <Container>
-        <Row className="flex-lg-row-reverse align-items-center g-5 mt-3">
+      <Container className="mt-3">
+        <Row className="flex-lg-row-reverse align-items-center g-5">
           <Col sm={6} lg={6}>
             <motion.div
               initial="hidden"
               animate="visible"
               variants={fadeInVariants}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 1 }}
               className="d-flex justify-content-center align-items-center"
             >
               <Image
@@ -40,7 +40,7 @@ const ExampleComponent = () => {
               initial="hidden"
               animate="visible"
               variants={fadeInVariants}
-              transition={{ duration: 0.5, delay: 0.2 }}
+              transition={{ duration: 1.5, delay: 1 }}
               className="display-5 fw-bold lh-1 mb-3 text-white"
             >
               Reparación y mantenimiento de maquinaria industrial
@@ -49,7 +49,7 @@ const ExampleComponent = () => {
               initial="hidden"
               animate="visible"
               variants={fadeInVariants}
-              transition={{ duration: 0.5, delay: 0.4 }}
+              transition={{ duration: 1.5, delay: 1 }}
               className="lead text-white"
             >
               En <strong className='fw-bold'>ENGRACOL S.A.S</strong> nos dedicamos a la fabricación de piñoneria, 
@@ -66,4 +66,4 @@ const ExampleComponent = () => {
   );
 };
 
-export default ExampleComponent;
+export default Homepage;
