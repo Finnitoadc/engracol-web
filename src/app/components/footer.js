@@ -1,12 +1,19 @@
 import React from 'react';
-
+import Image from 'next/image';
 function Footer() {
   return (
     <div className="container text-white">
       <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
         <div className="col mb-3">
           <a href="/" className="d-flex align-items-center mb-3 text-decoration-none">
-            <svg className="bi me-2" width="40" heigeht="32"><use xlinkHref="#bootstrap"></use></svg>
+          <Image
+                src="/logo-engracol.png"
+                alt="Bootstrap Themes"
+                width={70}
+                height={70}
+                className="img-fluid"
+                priority
+              />
           </a>
           <p className="text-white">© {new Date().getFullYear()}</p>
         </div>

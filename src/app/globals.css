@@ -1,7 +1,20 @@
 body {
   animation: moveBackground 20s infinite; /* Aumenta la duración de la animación #408EAB) */
-  background: linear-gradient(45deg, #0c4b66, #408EAB);
+  background: linear-gradient(95deg, #0c4b66, #408EAB);
 }
 .icon-lg {
   font-size: 30px; /* Tamaño deseado para los iconos (ajusta el valor según tus necesidades) */
+}
+
+.button-text-color {
+  color: #074471;
+}
+
+.transparent-offcanvas {
+  background-color: rgba(0, 0, 0, 0.9); /* Ajusta el valor alpha para la opacidad deseada */
+}
+
+.transparent-card {
+  background-color: rgba(255, 255, 255, 0); /* Cambia el último valor (0.5) para ajustar la opacidad */
+  border: none;
 }

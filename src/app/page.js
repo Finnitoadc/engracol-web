@@ -1,10 +1,11 @@
 "use client"
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button, ButtonGroup } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import Link from 'next/link';
 
 const Homepage = () => {
   const fadeInVariants = {
@@ -15,9 +16,9 @@ const Homepage = () => {
   return (
     <>
       <Navbar />
-      <Container className="mt-3">
-        <Row className="flex-lg-row-reverse align-items-center g-5">
-          <Col sm={6} lg={6}>
+      <Container className="mt-5">
+        <Row className="flex-lg-row-reverse align-items-center g-3 mt-5">
+          <Col sm={6}>
             <motion.div
               initial="hidden"
               animate="visible"
@@ -26,16 +27,16 @@ const Homepage = () => {
               className="d-flex justify-content-center align-items-center"
             >
               <Image
-                src="/ejemplo.webp"
+                src="/logo-engracol.png"
                 alt="Bootstrap Themes"
                 width={300}
-                height={300}
+                height={600}
                 className="img-fluid"
                 priority
               />
             </motion.div>
           </Col>
-          <Col lg={6}>
+          <Col className='mt-4'>
             <motion.h1
               initial="hidden"
               animate="visible"
@@ -52,14 +53,30 @@ const Homepage = () => {
               transition={{ duration: 1.5, delay: 1 }}
               className="lead text-white"
             >
-              En <strong className='fw-bold'>ENGRACOL S.A.S</strong> nos dedicamos a la fabricación de piñoneria, 
-              transmisiones mecánicas y mecanizado industrial, 
-              ofreciendo soluciones de calidad para las necesidades específicas de cada cliente. 
-              Contamos con un equipo altamente capacitado en el diseño y producción de piezas y sistemas mecánicos,
-              utilizando tecnología avanzada y materiales de primera calidad. nuestra experiencia en el sector nos permite ofrecer un servicio personalizado y eficiente garantizando la satisfacción de nuestros clientes.
+              En <strong className='fw-bold'>ENGRACOL S.A.S</strong> nos dedicamos a la fabricación
+              de piñoneria, transmisiones mecánicas y mecanizado
+              industrial, ofreciendo soluciones de calidad para las
+              necesidades específicas de cada cliente.
             </motion.p>
           </Col>
         </Row>
+        <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mt-3">
+          <Link href="/mecanizado">
+            <Button variant="light" size="lg" className="px-4 gap-3 button-text-color">
+              Servicio de Mecanizado
+            </Button>
+          </Link>
+          <Link href="/servicio-soldadura">
+            <Button variant="light" size="lg" className="px-4 button-text-color">
+              Servicio de Soldadura
+            </Button>
+          </Link>
+          <Link href="/servicio-diseño">
+            <Button variant="light" size="lg" className="px-4 button-text-color">
+              Servicio de Diseño
+            </Button>
+          </Link>
+        </div>
       </Container>
       <Footer />
     </>
