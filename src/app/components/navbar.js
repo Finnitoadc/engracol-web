@@ -35,33 +35,18 @@ const Sidebar = () => {
         <Offcanvas.Body>
           <ul style={{ listStyle: 'none', padding: 0 }}>
             <li>
-              <Link href="/torno">
-                  <i className="bi bi-cassette icon-lg">Torno</i>
+              <Link className='text-white link-underline-dark' href="/mecanizado">
+                  Mecanizado
               </Link>
             </li>
             <li>
-              <Link href="/ruta-del-icono-2">
-                  <i className="bi bi-cassette icon-lg">Fresadora</i>
+              <Link className='text-white link-underline-dark' href="/soldadura">
+                 Soldadura
               </Link>
             </li>
             <li>
-              <Link href="/ruta-del-icono-3">
-                  <i className="bi bi-cassette icon-lg">Generadora</i>
-              </Link>
-            </li>
-            <li>
-              <Link href="/ruta-del-icono-4">
-                  <i className="bi bi-cassette icon-lg"></i>
-              </Link>
-            </li>
-            <li>
-              <Link href="/ruta-del-icono-5">
-                  <i className="bi bi-cassette icon-lg"></i>
-              </Link>
-            </li>
-            <li>
-              <Link href="/ruta-del-icono-6">
-                  <i className="bi bi-cassette icon-lg"></i>
+              <Link className='text-white link-underline-dark' href="/diseno">
+                  Diseño
               </Link>
             </li>
           </ul>

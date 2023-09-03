@@ -18,12 +18,12 @@ const CardComponent = () => {
     {
       customComponent: <Generadora />,
       title: 'Generadora',
-      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      text: 'En nuestra empresa ofrecemos servicios de mecanizado en generadora para la producción de engranajes y piezas dentadas. Utilizamos tecnología avanzada para asegurar la máxima precisión y calidad en el resultado final',
     },
     {
       customComponent: <Fresadora />,
       title: 'Fresadora',
-      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      text: 'Nuestros servicios de mecanizado en fresadora incluyen la producción de piezas con geometrías complejas y tolerancias muy ajustadas. Contamos con máquinas de control numérico (CNC) que nos permiten trabajar con una amplia variedad de materiales',
     }
     // Agrega más datos de tarjetas según sea necesario
   ];
