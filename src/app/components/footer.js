@@ -35,10 +35,10 @@ function Footer() {
         <div className="col mb-3">
           <h5>Contacto</h5>
           <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href="https://wa.me/573246826740" className="nav-link p-0 text-white">Jhon Tobar - 324 682 6740</a></li>
-            <li className="nav-item mb-1"><a href="https://wa.me/573215071534" className="nav-link p-0 text-white">Ivan Restrepo - 321 507 1534</a></li>
-            <li className="nav-item mb-1"><b className="nav-link p-0 text-white">engranajesdecolombia@gmail.com</b></li>
-            <li className="nav-item mb-1"><b className="nav-link p-0 text-white">Calle 28 #4-22</b></li>
+            <li className="nav-item mt-2"><a href="https://wa.me/573246826740" className="nav-link p-0 text-white">Jhon Tobar - 324 682 6740</a></li>
+            <li className="nav-item"><a href="https://wa.me/573215071534" className="nav-link p-0 text-white">Ivan Restrepo - 321 507 1534</a></li>
+            <li className="nav-item"><b className="nav-link p-0 text-white">engranajesdecolombia@gmail.com</b></li>
+            <li className="nav-item"><b className="nav-link p-0 text-white">Calle 28 #4-22</b></li>
           </ul>
         </div>
       </footer>
