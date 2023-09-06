@@ -9,12 +9,12 @@ import Image from 'next/image';
 const CardComponent = () => {
   const cardData = [
     {
-      imageSrc: '/CAD.jpg', // Ruta de la imagen 1
+      imageSrc: '/disenoindustrial.jpg', // Ruta de la imagen 1
       title: 'Diseño industrial',
       text: 'Nuestro equipo cuenta con amplia experiencia en diseño industrial, lo que nos permite ofrecer soluciones personalizadas y adaptadas a la necesidad de cada cliente.',
     },
     {
-      imageSrc: '/disenoindustrial.jpg', // Ruta de la imagen 2
+      imageSrc: '/CAD.jpg', // Ruta de la imagen 2
       title: 'Dibujo CAD',
       text: 'Utilizamos software de diseño asistido por computadora para la creacion de planos y modelos 3D. Esto nos permite visualizar y simular el resultado final.',
     },
