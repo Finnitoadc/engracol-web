@@ -35,9 +35,9 @@ function Footer() {
         <div className="col mb-3">
           <h5>Contacto</h5>
           <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-white">Home</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-white">Features</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-white">Pricing</a></li>
+            <li className="nav-item mb-2"><a href="https://wa.me/573246826740" className="nav-link p-0 text-white">Jhon Tobar - 324 682 6740</a></li>
+            <li className="nav-item mb-2"><a href="https://wa.me/573215071534" className="nav-link p-0 text-white">Ivan Restrepo - 321 507 1534</a></li>
+            <li className="nav-item mb-2"><b className="nav-link p-0 text-white">engranajesdecolombia@gmail.com</b></li>
             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-white">FAQs</a></li>
             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-white">About</a></li>
           </ul>
