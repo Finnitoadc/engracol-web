@@ -23,18 +23,17 @@ function Footer() {
         </div>
 
         <div className="col mb-3">
-          <h5>Section</h5>
+          <h5>Servicios</h5>
           <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-white">Home</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-white">Features</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-white">Pricing</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-white">FAQs</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-white">About</a></li>
+            <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-white">Inicio</a></li>
+            <li className="nav-item mb-2"><a href="/mecanizado" className="nav-link p-0 text-white">Mecanizado</a></li>
+            <li className="nav-item mb-2"><a href="/soldadura" className="nav-link p-0 text-white">soldadura</a></li>
+            <li className="nav-item mb-2"><a href="/diseno" className="nav-link p-0 text-white">Diseño</a></li>
           </ul>
         </div>
 
         <div className="col mb-3">
-          <h5>Section</h5>
+          <h5>Contacto</h5>
           <ul className="nav flex-column">
             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-white">Home</a></li>
             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-white">Features</a></li>

@@ -11,7 +11,7 @@ const CardComponent = () => {
     {
       imageSrc: '/CAD.jpg', // Ruta de la imagen 1
       title: 'Diseño industrial',
-      text: 'Nuestro equipo cuenta con amplia experiencia en diseño industrial, lo que nos permite ofrecer soluciones personalizadas y adaptadas a la necesidad de cada cliente',
+      text: 'Nuestro equipo cuenta con amplia experiencia en diseño industrial, lo que nos permite ofrecer soluciones personalizadas y adaptadas a la necesidad de cada cliente.',
     },
     {
       imageSrc: '/disenoindustrial.jpg', // Ruta de la imagen 2
@@ -20,7 +20,7 @@ const CardComponent = () => {
     },
     {
       imageSrc: '/acabado.jpg', // Ruta de la imagen 2
-      title: 'Dibujo CAD',
+      title: 'Acabado',
       text: 'Nuestros equipo se es esfuerza por encontrar soluciones para los problemas de diseño teninendo en cuenta la eficiencia de fabricacion y satisfaccion del cliente.',
     }
   ];
