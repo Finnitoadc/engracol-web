@@ -25,7 +25,7 @@ const Sidebar = () => {
             <HiMenu className='text-white fs-3'/>
           </motion.div>
         </Navbar.Brand>
-      <Link href="https://wa.me/573246826740"><Button variant="outline-light" className="ms-auto me-4">Contacto</Button></Link>
+      <Link className="ms-auto me-4" href="https://wa.me/573246826740"><Button variant="outline-light" >Contacto</Button></Link>
       </Navbar>
 
       <Offcanvas show={showSidebar} onHide={handleClose} placement="start" className="transparent-offcanvas">
