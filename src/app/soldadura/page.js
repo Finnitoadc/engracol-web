@@ -17,6 +17,11 @@ const CardComponent = () => {
       imageSrc: '/soldadura2.jpg', // Ruta de la imagen 2
       title: 'Soldadura MIG/MAG',
       text: 'Ofrecemos servicios de soldadura MIG/MAG para la produccion en serie de piezas metalicas. Este proceso es rapido y eficiente, y permite obtener resultados homogeneos y resistentes.',
+    },
+    {
+      imageSrc: '/soldadura2.jpg', // Ruta de la imagen 2
+      title: 'Soldadura MIG/MAG',
+      text: 'Ofrecemos servicios de soldadura MIG/MAG para la produccion en serie de piezas metalicas. Este proceso es rapido y eficiente, y permite obtener resultados homogeneos y resistentes.',
     }
   ];
 
@@ -24,7 +29,7 @@ const CardComponent = () => {
     <>
       <Navbar />
       <Container className="d-flex justify-content-center mt-5 py-5">
-        <Row xs={2} md={2} className="flex-lg-row-reverse align-items-center">
+        <Row xs={1} md={3} className="flex-lg-row-reverse align-items-center">
           {cardData.map((card, idx) => (
             <Col key={idx}>
               <CardImages
