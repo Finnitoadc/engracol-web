@@ -19,9 +19,9 @@ const CardComponent = () => {
       text: 'Ofrecemos servicios de soldadura MIG/MAG para la produccion en serie de piezas metalicas. Este proceso es rapido y eficiente, y permite obtener resultados homogeneos y resistentes.',
     },
     {
-      imageSrc: '/soldadura2.jpg', // Ruta de la imagen 2
+      imageSrc: '/soldadura.jpg', // Ruta de la imagen 2
       title: 'Soldadura MIG/MAG',
-      text: 'Ofrecemos servicios de soldadura MIG/MAG para la produccion en serie de piezas metalicas. Este proceso es rapido y eficiente, y permite obtener resultados homogeneos y resistentes.',
+      text: 'La soldadura MIG/MAG se conoce también como GMAW o soldadura de hilo. Es un soldeo por fusión por arco que utiliza un alambre electrodo macizo, en el cual el arco y el baño de soldadura se protegen de la atmósfera por medio de gas suministrado por una fuente externa. Está dividido en dos tipos: MIG (el gas protector es inerte) y MAG (el gas protector es activo). Actualmente, es el proceso más utilizado debido a su alta productividad, permitiendo obtener una velocidad de soldadura muy alta.',
     }
   ];
 
