@@ -9,14 +9,19 @@ import Image from 'next/image';
 const CardComponent = () => {
   const cardData = [
     {
-      imageSrc: '/soldadura1.jpg', // Ruta de la imagen 1
-      title: 'Soldadura TIG',
-      text: 'Realizamos soldadura TIG en acero inoxidable, aluminio y otros materiales. Este proceso es ideal para trabajos que requieran una alta precision y un acabado estetico.',
+      imageSrc: '/CAD.jpg', // Ruta de la imagen 1
+      title: 'Diseño industrial',
+      text: 'Nuestro equipo cuenta con amplia experiencia en diseño industrial, lo que nos permite ofrecer soluciones personalizadas y adaptadas a la necesidad de cada cliente',
     },
     {
-      imageSrc: '/soldadura2.jpg', // Ruta de la imagen 2
-      title: 'Soldadura MIG/MAG',
-      text: 'Ofrecemos servicios de soldadura MIG/MAG para la produccion en serie de piezas metalicas. Este proceso es rapido y eficiente, y permite obtener resultados homogeneos y resistentes.',
+      imageSrc: '/disenoindustrial.jpg', // Ruta de la imagen 2
+      title: 'Dibujo CAD',
+      text: 'Utilizamos software de diseño asistido por computadora para la creacion de planos y modelos 3D. Esto nos permite visualizar y simular el resultado final.',
+    },
+    {
+      imageSrc: '/acabado.jpg', // Ruta de la imagen 2
+      title: 'Dibujo CAD',
+      text: 'Nuestros equipo se es esfuerza por encontrar soluciones para los problemas de diseño teninendo en cuenta la eficiencia de fabricacion y satisfaccion del cliente.',
     }
   ];
 
@@ -24,7 +29,7 @@ const CardComponent = () => {
     <>
       <Navbar />
       <Container className="d-flex justify-content-center mt-5 py-5">
-        <Row xs={2} md={2} className="flex-lg-row-reverse align-items-center">
+        <Row xs={1} md={3} className="flex-lg-row-reverse align-items-center">
           {cardData.map((card, idx) => (
             <Col key={idx}>
               <CardImages
