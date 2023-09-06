@@ -21,7 +21,7 @@ const CardComponent = () => {
     {
       imageSrc: '/soldadura.jpg', // Ruta de la imagen 2
       title: 'Mas sobre MIG/MAG',
-      text: 'La soldadura MIG/MAG se conoce también como GMAW o soldadura de hilo. Es un soldeo por fusión por arco que utiliza un alambre electrodo macizo, en el cual el arco y el baño de soldadura se protegen de la atmósfera por medio de gas suministrado por una fuente externa.',
+      text: 'La soldadura MIG/MAG se conoce también como GMAW o soldadura de hilo. Es un soldeo por fusión por arco que utiliza un alambre electrodo macizo, en el cual el arco y el baño de soldadura se protegen',
     }
   ];
 
