@@ -34,6 +34,11 @@ const Sidebar = () => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul style={{ listStyle: 'none', padding: 0 }}>
+          <li>
+              <Link className='text-white link-underline-dark' href="/">
+                  Inicio
+              </Link>
+            </li>
             <li>
               <Link className='text-white link-underline-dark' href="/mecanizado">
                   Mecanizado
