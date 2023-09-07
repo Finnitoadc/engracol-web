@@ -66,12 +66,12 @@ const Homepage = () => {
               Servicio de Mecanizado
             </Button>
           </Link>
-          <Link href="/servicio-soldadura">
+          <Link href="/soldadura">
             <Button variant="light" size="lg" className="px-4 button-text-color">
               Servicio de Soldadura
             </Button>
           </Link>
-          <Link href="/servicio-diseño">
+          <Link href="/diseno">
             <Button variant="light" size="lg" className="px-4 button-text-color">
               Servicio de Diseño
             </Button>
